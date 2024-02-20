@@ -4,7 +4,7 @@ Repositirio que contiene la información necesaria sobre comparación de program
 
 ## Datos
 
-Los datos se encuentras en la carpeta `000_raw_data`:
+Los datos se encuentran en la carpeta `000_raw_data`:
 
 - 000_admon_alta_calidad_colombia_pregrado.xlsx
 
