@@ -12,6 +12,7 @@ col_admon <- read_xlsx(path = "000_raw_data/000_admon_alta_calidad_colombia_preg
                        range = "A1:AM88") |> 
   clean_names()
 
+col_admon |> glimpse()
 ## Score Saber-pro 2022
 ## Generic competencies
 ### There are no information about specific competencies
@@ -70,6 +71,10 @@ col_admon <- col_admon |>
          modalidad,
          # Número de créditos,
          numero_creditos,
+         # Periodos de duración
+         numero_periodos_de_duracion,
+         # Costo matrícula estudiantes nuevos
+         costo_matricula_estud_nuevos,
          # Municipio de oferta del programa
          municipio_oferta_programa,
          # Costo matrícula estudiantes nuevos
@@ -100,6 +105,9 @@ admon_top <- virtual_admon |>
          codigo_snies_del_programa,
          modalidad,
          municipio_oferta_programa,
+         numero_creditos,
+         numero_periodos_de_duracion,
+         costo_matricula_estud_nuevos,
          mean_punt_global) |> 
   arrange(desc(mean_punt_global))
   
