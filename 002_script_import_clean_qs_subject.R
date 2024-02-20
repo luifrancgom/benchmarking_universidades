@@ -34,28 +34,46 @@ admon_triple_crown <- admon_triple_crown |>
 # Merge ----
 admon_top_international <- admon_triple_crown |> 
   stringdist_left_join(y = qs_business,
+                       # Using fuzzy join
+                       ## Not perfect but the only solution
+                       ## I find
                        by = c(institution = "Institution")) |> 
   clean_names() |> 
   filter(!is.na(score)) |> 
-  select(institution, region, location, 
+  select(institution, faculty , region, location, 
          # Score in relation to 
          # QS World University Rankings by subject
          ## Business
          score) |>
   mutate(institution = str_trim(institution, side = "both")) |> 
-  slice_max(order_by = score, n = 12) 
+  slice_max(order_by = score, n = 14) 
 
 # Adding useful observations
 ## This will need to be added manually
-observations <- c("Not undergraduate degrees",
+program_name <- c("Not undergraduate degrees",
                   "Barchelor in Data, Society and Organizations",
                   "Barchelor in Business Administration and Service Management",
                   "Study plan not found",
                   "Bachelor of Business Management",
-                  "Barchelor in Business and Economics")
+                  "Barchelor in Business and Economics",
+                  "Bachelor of Business – Business Management major",
+                  "Bachelor of Commerce",
+                  "Barchelor in Business Management (BSc Hons)",
+                  "Business Administration",
+                  "Already in Colombia",
+                  "Not matched correctly",
+                  "Bachelor of Business Administration (BBA)",
+                  "Ingeniería Comercial - Licenciatura en Administración de Empresas")
 
+# Concatenating and cleaning data
 admon_top_international <- admon_top_international |> 
-  mutate(observations = observations)
+  mutate(program_name = program_name) |> 
+  slice(-c(1, 4, 11, 12)) |> 
+  mutate(institution = case_when(
+    !is.na(faculty) ~ str_c(institution, faculty, sep = " -"),
+    .default = institution)) |> 
+  select(institution, program_name, location, region, score)
+
 
 # Export ----
 admon_top_international |> 
