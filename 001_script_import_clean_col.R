@@ -99,7 +99,7 @@ presencial_admon <- col_admon |>
   slice_max(order_by = mean_punt_global, 
             n = 10 - nrow(virtual_admon))
 
-admon_top <- virtual_admon |> 
+admon_top_col <- virtual_admon |> 
   bind_rows(presencial_admon) |> 
   select(nombre_institucion, 
          codigo_snies_del_programa,
@@ -112,7 +112,7 @@ admon_top <- virtual_admon |>
   arrange(desc(mean_punt_global))
   
 # Export ----
-admon_top |> 
-  write_csv(file = "000_clean_data/admon_top.csv")
+admon_top_col |> 
+  write_csv(file = "000_clean_data/admon_top_col.csv")
 
 
