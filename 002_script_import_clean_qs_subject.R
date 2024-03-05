@@ -37,9 +37,10 @@ admon_top_international <- admon_triple_crown |>
                        # Using fuzzy join
                        ## Not perfect but the only solution
                        ## I find
-                       by = c(institution = "Institution")) |> 
+                       by = "institution") |> 
   clean_names() |> 
-  filter(!is.na(score)) |> 
+  filter(!is.na(score)) |>
+  rename(institution = institution_x) |> 
   select(institution, faculty , region, location, 
          # Score in relation to 
          # QS World University Rankings by subject
