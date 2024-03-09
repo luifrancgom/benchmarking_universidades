@@ -1,0 +1,101 @@
+---
+title: Análisis comparativo área economía
+author: Luis Francisco Gómez López
+institute: Universidad Militar Nueva Granada - FAEDIS
+date: 2024-03-09
+format: 
+  beamer:
+    theme: Copenhagen
+editor: visual
+---
+
+# Contenido
+
+::: {.incremental}
+-   Área economía
+-   Buenas prácticas
+-   Otras áreas
+:::
+
+# Área economía
+
+::: {.incremental}
+-   Nombres explícitos en las asignaturas
+
+    -   Economía 1 $\Longrightarrow$ Introducción a la Economía Colombiana/Entorno económico colombiano
+    -   Economía 2 $\Longrightarrow$ Microeconomía/Managerial economics
+    -   Economía 3 $\Longrightarrow$ Macroeconomía
+
+-   No fusionar Formulación y Evaluación de Proyectos con Gerencia de Proyectos/Gestión de Proyectos/Project management
+
+    -   Si se reduce al programa a 3 años estas materias entrarían como electivas o materias de posgrado
+    
+        -   ¿Integración con Especialización en Gerencia Integral de Proyectos  SNIES 4460?
+        -   ¿Integración con Maestría en Gerencia Integral de Proyectos  SNIES 110013?
+:::
+
+# Área economía
+
+::: {.incremental}
+-   Fusionar Globalización Económica con Negocios Internacionales
+
+    -   No tiene sentido atomizar esfuerzos en 2 materias
+    -   Requiere convenio con otra institución por fuera de Colombia
+        -   Construcción de un plan de expansión entre estudiantes del programa y otra institución internacional
+:::
+
+# Buenas prácticas
+
+::: {.incremental}
+-   BI Norwegian Business School
+
+    -   Para la materia Economics 2 utiliza el CORE (Curriculum Open-access Resources in Economics)
+    
+        -   En el programa de FAEDIS se propuso en 2023-2 pero no se ha aplicado debido a que se asignó otro docente de cátedra
+        -   Se realizó el entrenamiento de la profesora Angélica Mercedes Rodriguez
+        -   Se requiere aplicarlo donde mejoraría el área de economía
+:::
+
+# Otras áreas
+
+::: {.incremental}
+-   A futuro se requiere realizar proyectos integradores a lo largo del plan de estudios que generen productos entre asignaturas dentro del área o de diferentes de áreas
+
+    -   Sería un esquema intermedio en relación a lo que utiliza la Fundación Univesitaria - CEIPA
+    
+-   Flexibilidad intra-institucional
+
+    -   Posibilidad de tomar asignaturas de otros programas académicos dentro de FAEDIS
+    
+        -   Ese es el funcionamiento de las escuelas de negocios revisadas a nivel internacional
+:::
+
+# Otras áreas
+
+::: {.incremental}
+-   Se requiere incluir de manera explícita el tema de segunda lengua
+
+    -   Con créditos
+    -   Sin créditos
+    -   Cumplir requisito antes de avanzar en base a un semestre
+    -   Integrar en asignaturas área profesional
+    
+-   En el caso del área de matemáticas
+
+    -   De acuerdo con el cambio de Administración de Empresas Presencia
+    -   Sin embargo, Matemáticas 1 $\Longrightarrow$ Pre-cálculo
+    -   No es claro el tema de Modelos Matemáticos donde por eso cambia a Gestión de Operaciones
+:::
+
+# Otras áreas
+
+::: {.incremental}
+-   En el área de humanidades
+
+    -   Requiero conocer como se está manejando la adquisición de resultados de aprendizaje en Expresión Oral y Escrita
+    
+    -   Requiero conocer la porpuesta de oferta del DEIN respecto a las posibilidades de Humanidades I y II:
+    
+        -   Reading and Writing
+        -   Comunicative competences in english
+:::
