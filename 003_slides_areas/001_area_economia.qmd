@@ -11,7 +11,7 @@ editor: visual
 
 # Contenido
 
-::: {.incremental}
+::: incremental
 -   Área economía
 -   Buenas prácticas
 -   Otras áreas
@@ -19,7 +19,7 @@ editor: visual
 
 # Área economía
 
-::: {.incremental}
+::: incremental
 -   Nombres explícitos en las asignaturas
 
     -   Economía 1 $\Longrightarrow$ Introducción a la Economía Colombiana/Entorno económico colombiano
@@ -28,15 +28,15 @@ editor: visual
 
 -   No fusionar Formulación y Evaluación de Proyectos con Gerencia de Proyectos/Gestión de Proyectos/Project management
 
-    -   Si se reduce al programa a 3 años estas materias entrarían como electivas o materias de posgrado
-    
-        -   ¿Integración con Especialización en Gerencia Integral de Proyectos  SNIES 4460?
-        -   ¿Integración con Maestría en Gerencia Integral de Proyectos  SNIES 110013?
+    -   Si se reduce el programa a 3 años estas materias entrarían como electivas o materias de posgrado
+
+        -   ¿Integración con Especialización en Gerencia Integral de Proyectos SNIES 4460?
+        -   ¿Integración con Maestría en Gerencia Integral de Proyectos SNIES 110013?
 :::
 
 # Área economía
 
-::: {.incremental}
+::: incremental
 -   Fusionar Globalización Económica con Negocios Internacionales
 
     -   No tiene sentido atomizar esfuerzos en 2 materias
@@ -46,11 +46,11 @@ editor: visual
 
 # Buenas prácticas
 
-::: {.incremental}
+::: incremental
 -   BI Norwegian Business School
 
     -   Para la materia Economics 2 utiliza el CORE (Curriculum Open-access Resources in Economics)
-    
+
         -   En el programa de FAEDIS se propuso en 2023-2 pero no se ha aplicado debido a que se asignó otro docente de cátedra
         -   Se realizó el entrenamiento de la profesora Angélica Mercedes Rodriguez
         -   Se requiere aplicarlo donde mejoraría el área de economía
@@ -58,28 +58,41 @@ editor: visual
 
 # Otras áreas
 
-::: {.incremental}
+::: incremental
 -   A futuro se requiere realizar proyectos integradores a lo largo del plan de estudios que generen productos entre asignaturas dentro del área o de diferentes de áreas
 
     -   Sería un esquema intermedio en relación a lo que utiliza la Fundación Univesitaria - CEIPA
-    
+
 -   Flexibilidad intra-institucional
 
     -   Posibilidad de tomar asignaturas de otros programas académicos dentro de FAEDIS
-    
+
         -   Ese es el funcionamiento de las escuelas de negocios revisadas a nivel internacional
 :::
 
 # Otras áreas
 
-::: {.incremental}
--   Se requiere incluir de manera explícita el tema de segunda lengua
+::: incremental
+-   Creación de **mínimo** una materia (pueden ser más) relacionada con el manejo de datos para Administración de Empresas
+
+    -   Selección de la tecnología a utilizar: hojas de cálculo, python, R, SAP, entre otros
+    -   Integración curricular
+        -   ¿Donde obtengo los datos? (Sistemas de Información Gerencial)
+        -   ¿Cómo extraigo valor de los datos? (Estadística descriptiva e inferencial)
+    -   Coordinación inter-institucional
+        -   Departamento de Tecnologías del Conocimiento pero sin que este desconectado del programa académico
+:::
+
+# Otras áreas
+
+::: incremental
+-   Se requiere incluir de manera explícita el tema de segunda lengua dentro del plan de estudios
 
     -   Con créditos
     -   Sin créditos
     -   Cumplir requisito antes de avanzar en base a un semestre
     -   Integrar en asignaturas área profesional
-    
+
 -   En el caso del área de matemáticas
 
     -   De acuerdo con el cambio de Administración de Empresas Presencia
@@ -89,13 +102,13 @@ editor: visual
 
 # Otras áreas
 
-::: {.incremental}
+::: incremental
 -   En el área de humanidades
 
-    -   Requiero conocer como se está manejando la adquisición de resultados de aprendizaje en Expresión Oral y Escrita
-    
-    -   Requiero conocer la porpuesta de oferta del DEIN respecto a las posibilidades de Humanidades I y II:
-    
+    -   Se requiere conocer como se está manejando los resultados de aprendizaje en Expresión Oral y Escrita
+
+    -   Se requiere conocer la propuesta de oferta del DEIN respecto a las posibilidades de Humanidades I y II en relación a los cursos:
+
         -   Reading and Writing
-        -   Comunicative competences in english
+        -   Comunicative Competences in English
 :::
